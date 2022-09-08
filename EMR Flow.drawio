@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-08T09:31:17.631Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="e2cJT93tIkeIgZEv61f0" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-08T13:24:26.209Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="yjXScjIcmWWjOOtfoxGL" version="20.2.3" type="github">
   <diagram id="AwN7vVhOrOwk2pl2pIlE" name="Page-1">
-    <mxGraphModel dx="1574" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1377" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -143,6 +143,11 @@
         <mxCell id="gyCaFqsIdJrXnqOvhJbO-136" value="" style="group;shadow=0;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="706" y="640" width="410" height="1330" as="geometry" />
         </mxCell>
+        <mxCell id="V7cwoXAEUZXMKd0SKZb5-6" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="gyCaFqsIdJrXnqOvhJbO-136" source="gyCaFqsIdJrXnqOvhJbO-28" target="gyCaFqsIdJrXnqOvhJbO-40">
+          <mxGeometry x="-0.5238" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="gyCaFqsIdJrXnqOvhJbO-28" value="Task Instances&lt;br&gt;Termination&lt;br&gt;?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;verticalAlign=middle;spacingBottom=0;spacingTop=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="gyCaFqsIdJrXnqOvhJbO-136" vertex="1">
           <mxGeometry x="10" width="124" height="110" as="geometry" />
         </mxCell>
@@ -220,7 +225,7 @@
         <mxCell id="V7cwoXAEUZXMKd0SKZb5-4" value="How the EMR Cluster will handle it ?&lt;br&gt;&lt;br&gt;Terminated Spot Instances are&lt;br&gt;not replaced by On-Demand" style="whiteSpace=wrap;html=1;strokeWidth=2;spacingBottom=0;spacingTop=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="gyCaFqsIdJrXnqOvhJbO-136">
           <mxGeometry x="226" y="650" width="176" height="111" as="geometry" />
         </mxCell>
-        <mxCell id="gyCaFqsIdJrXnqOvhJbO-137" value="Cluster Terminated" style="whiteSpace=wrap;html=1;strokeWidth=2;spacingBottom=0;spacingTop=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="gyCaFqsIdJrXnqOvhJbO-137" value="Cluster Terminated&lt;br&gt;With Error" style="whiteSpace=wrap;html=1;strokeWidth=2;spacingBottom=0;spacingTop=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="959" y="355" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="V7cwoXAEUZXMKd0SKZb5-1" value="Spot Instance&lt;br&gt;Block Duration&lt;br&gt;Max 6H" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;spacingBottom=0;spacingTop=0;" vertex="1" parent="1">
